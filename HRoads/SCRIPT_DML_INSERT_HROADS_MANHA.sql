@@ -1,0 +1,27 @@
+INSERT INTO TIPO_HABILIDADES(NOME)
+VALUES ('Ataque'), ('Defesa'), ('Cura'), ('Magia');
+
+INSERT INTO TIPO_HABILIDADES(NOME)
+VALUES ('Sem habilidade');
+
+INSERT INTO HABILIDADES (NOME)
+VALUES ('Lança Mortal'), ('Escudo Supremo'), ('Recuperar Vida');
+
+INSERT INTO HABILIDADES (ID_TIPO_HABILIDADES)
+VALUES (1), (2), (3), (4);
+
+INSERT INTO HABILIDADES (NOME)
+VALUES ('Sem habilidades');
+
+INSERT INTO CLASSES(NOME)
+VALUES ('Bárbaro'), ('Cruzado'), ('Caçadora de Demônios'), ('Monge'), ('Necromante'), ('Feiticeiro'), ('Arcanista');
+
+INSERT INTO CLASSES_HABILIDADES (ID_CLASSE, ID_HABILIDADE)
+VALUES (1, 1), (2, 2), (3, 1), (4, 3), (5, 4), (6, 3), (7, 4), (1, 2), (4, 2);
+
+INSERT INTO CLASSES_HABILIDADES (ID_CLASSE, ID_HABILIDADE)
+VALUES (5,)(7,);
+
+INSERT INTO PERSONAGENS(NOME, CAPACIDADE_MAX_VIDA, CAPACIDADE_MAX_MANA, DATA_DE_ATUALIZACAO, DATA_CRIACAO, ID_CLASSE)
+VALUES ('DeuBug', 100, 80, '04/02/2019', '04/02/2019', 1),  ('BitBug', 70, 100, '04/02/2019', '04/02/2019', 4), 
+('Fer8', 75, 60, '04/02/2019', '04/02/2019', 7);
